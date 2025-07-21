@@ -16,10 +16,8 @@ public class ModItemGroups {
             Identifier.of(MinecraftMod.MOD_ID, "minecraft_mod_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.FIRE_FLOWER))
                     .displayName(Text.translatable("Minecraft Mod Items"))
-                    .entries((displayContext, entries) -> {
-                        entries.add(ModItems.FIRE_FLOWER);
-
-                    }).build());
+                    .entries((displayContext, entries) ->
+                            entries.add(ModItems.FIRE_FLOWER)).build());
 
     //If you want to create a new group just copy the code above except for the entries added.
 
