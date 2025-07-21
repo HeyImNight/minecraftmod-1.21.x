@@ -2,6 +2,7 @@ package net.jrake.minecraftmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.jrake.minecraftmod.item.ModItemGroups;
 import net.jrake.minecraftmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,9 +21,12 @@ public class MinecraftMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
+		//Call to register Item Groups
+		ModItemGroups.registerItemGroups();
 
 		//Call to register all items in the Mod from the "ModItems" class.
 		ModItems.registerModItems();
+
 	}
 
 
