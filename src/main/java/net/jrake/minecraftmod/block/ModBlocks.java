@@ -5,6 +5,7 @@ import net.jrake.minecraftmod.MinecraftMod;
 import net.jrake.minecraftmod.item.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.FlowerBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
@@ -36,10 +37,6 @@ public class ModBlocks
                     .pistonBehavior(PistonBehavior.DESTROY)
                     .noCollision()
                     .mapColor(MapColor.DARK_RED)));
-
-
-
-
 
 
 
