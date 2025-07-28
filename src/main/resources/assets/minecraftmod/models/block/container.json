@@ -3,10 +3,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [10, 10],
 	"textures": {
-		"0": "minecraftmod:block/mana_container",
-		"1": "minecraftmod:block/mana_glass",
-		"2": "minecraftmod:block/handle_texture",
-		"particle": "minecraftmod:block/mana_container"
+		"0": "mana_container",
+		"1": "mana_glass",
+		"2": "handle_texture",
+		"particle": "mana_container"
 	},
 	"elements": [
 		{
@@ -158,6 +158,28 @@
 			"rotation": [70, 0, 0],
 			"translation": [0, -2.5, -3],
 			"scale": [0.5, 0.5, 0.5]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [70, 0, 0],
+			"translation": [0, -2.5, -3],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [12, 0, 0],
+			"translation": [0, -2.5, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [12, 0, 0],
+			"translation": [0, -2.5, 1],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [0, 5, 0]
+		},
+		"gui": {
+			"rotation": [-5, -31, 0],
+			"scale": [0.8, 0.8, 0.8]
 		}
 	},
 	"groups": [
