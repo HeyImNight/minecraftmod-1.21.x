@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraftmod:block/fire_flower_block"
+    }
+  }
+}

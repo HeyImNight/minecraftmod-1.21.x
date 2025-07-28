@@ -1,4 +1,6 @@
 
 {
-  "item.minecraftmod.fire_flower": "Fire Flower"
+  "item.minecraftmod.fire_flower": "Fire Flower",
+
+  "block.minecraftmod.fire_flower_block":"Fire Flower Block"
 }

@@ -2,6 +2,7 @@ package net.jrake.minecraftmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.jrake.minecraftmod.MinecraftMod;
+import net.jrake.minecraftmod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -17,7 +18,13 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.FIRE_FLOWER))
                     .displayName(Text.translatable("Minecraft Mod Items"))
                     .entries((displayContext, entries) ->
-                            entries.add(ModItems.FIRE_FLOWER)).build());
+                    {
+                        entries.add(ModItems.FIRE_FLOWER);
+                        entries.add(ModBlocks.FIRE_FLOWER_BLOCK);
+                    })
+                    .build());
+
+
 
     //If you want to create a new group just copy the code above except for the entries added.
 

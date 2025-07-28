@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/flower",
+  "textures": {
+    "cross": "minecraftmod:block/fire_flower_block"
+  }
+}
