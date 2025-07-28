@@ -27,6 +27,15 @@ public class ModBlocks
                     .pistonBehavior(PistonBehavior.DESTROY)
                     .noCollision()
                     .mapColor(MapColor.DARK_RED)));
+    public static final Block WATER_FLOWER_BLOCK = registerBlock("water_flower_block", new Block(
+            AbstractBlock.Settings.create()
+                    .strength(5f)
+                    .ticksRandomly()
+                    .breakInstantly()
+                    .sounds(BlockSoundGroup.CHERRY_SAPLING)
+                    .pistonBehavior(PistonBehavior.DESTROY)
+                    .noCollision()
+                    .mapColor(MapColor.DARK_RED)));
 
 
 
