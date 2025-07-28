@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.FIRE_FLOWER);
                         entries.add(ModBlocks.FIRE_FLOWER_BLOCK);
                         entries.add(ModBlocks.WATER_FLOWER_BLOCK);
+                        entries.add(ModBlocks.CONTAINER);
                     })
                     .build());
 

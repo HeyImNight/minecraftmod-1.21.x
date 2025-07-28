@@ -3,5 +3,7 @@
   "item.minecraftmod.fire_flower": "TEST ITEM",
 
   "block.minecraftmod.fire_flower_block":"Fire Flower",
-  "block.minecraftmod.water_flower_block":"Water Flower"
+  "block.minecraftmod.water_flower_block":"Water Flower",
+  "block.minecraftmod.container":"Container"
+
 }
