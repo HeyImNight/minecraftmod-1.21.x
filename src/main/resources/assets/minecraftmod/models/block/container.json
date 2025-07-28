@@ -3,10 +3,10 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [10, 10],
 	"textures": {
-		"0": "mana_container",
-		"1": "mana_glass",
-		"2": "handle_texture",
-		"particle": "mana_container"
+		"0": "minecraftmod:block/mana_container",
+		"1": "minecraftmod:block/mana_glass",
+		"2": "minecraftmod:block/handle_texture",
+		"particle": "minecraftmod:block/mana_container"
 	},
 	"elements": [
 		{
