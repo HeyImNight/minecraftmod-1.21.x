@@ -1,9 +1,6 @@
 package net.jrake.minecraftmod.block;
 
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.fabricmc.fabric.mixin.content.registry.AbstractFurnaceBlockEntityMixin;
 import net.jrake.minecraftmod.MinecraftMod;
-import net.jrake.minecraftmod.item.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.FlowerBlock;
@@ -12,7 +9,6 @@ import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.component.type.SuspiciousStewEffectsComponent;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -24,7 +20,7 @@ public class ModBlocks
     //Flowers -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
         //Creating the block BUT we can also copy from existing blocks
-    public static final Block WATER_FLOWER_BLOCK = registerBlock("water_flower_block", new Block(
+    public static final FlowerBlock WATER_FLOWER_BLOCK = registerFlowerBlock("water_flower_block", new FlowerBlock(SuspiciousStewEffectsComponent.DEFAULT,
             AbstractBlock.Settings.create()
                     .strength(5f)
                     .ticksRandomly()
@@ -44,7 +40,7 @@ public class ModBlocks
                     .mapColor(MapColor.DARK_RED)));
 
 
-//------------------------------------------------------------------------------------------------------------------------------------------
+//-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     //Helper Methods
     private static FlowerBlock registerFlowerBlock(String name, FlowerBlock block)
     {
@@ -58,19 +54,12 @@ public class ModBlocks
         return Registry.register(Registries.BLOCK,Identifier.of(MinecraftMod.MOD_ID, name), block);
     }
 
-    //Since thi is a block, you need to initialize the corresponding item with it as well
+    //Since this is a block, you need to initialize the corresponding item with it as well
     private static void registerBlockItem(String name, Block block)
     {
         //call .net Minecraft registry
         Registry.register(Registries.ITEM, Identifier.of(MinecraftMod.MOD_ID, name), new BlockItem(block, new Item.Settings()));
     }
-
-
-
-
-
-
-
 
 
 
