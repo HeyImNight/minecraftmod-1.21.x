@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "minecraftmod:block/container"
-  }
+  "parent": "minecraftmod:block/container"
 }

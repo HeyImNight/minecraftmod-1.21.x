@@ -2,10 +2,10 @@
 	"format_version": "1.9.0",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "block/mana_container",
-		"1": "block/mana_glass",
-		"2": "block/handle_texture",
-		"particle": "block/mana_container"
+		"0": "minecraftmod:block/mana_container",
+		"1": "minecraftmod:block/mana_glass",
+		"2": "minecraftmod:block/handle_texture",
+		"particle": "minecraftmod:block/mana_container"
 	},
 	"elements": [
 		{
