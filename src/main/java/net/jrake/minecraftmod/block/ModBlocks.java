@@ -70,8 +70,6 @@ public class ModBlocks
         Registry.register(Registries.ITEM, Identifier.of(MinecraftMod.MOD_ID, name), new BlockItem(block, new Item.Settings()));
     }
 
-
-
     public static void registerBlocks()
     {
         // not a nescessity but nice to have
