@@ -5,6 +5,7 @@ import net.jrake.minecraftmod.MinecraftMod;
 import net.jrake.minecraftmod.item.ModItems;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
 import net.minecraft.block.piston.PistonBehavior;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -19,12 +20,13 @@ public class ModBlocks
     //Creating the block BUT we can also copy from existing blocks
     public static final Block FIRE_FLOWER_BLOCK = registerBlock("fire_flower_block", new Block(
             AbstractBlock.Settings.create()
-                    .strength(1f)
+                    .strength(5f)
                     .ticksRandomly()
                     .breakInstantly()
                     .sounds(BlockSoundGroup.CHERRY_SAPLING)
                     .pistonBehavior(PistonBehavior.DESTROY)
-                    .noCollision()));
+                    .noCollision()
+                    .mapColor(MapColor.DARK_RED)));
 
 
 

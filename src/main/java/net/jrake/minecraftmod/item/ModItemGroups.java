@@ -20,7 +20,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) ->
                     {
                         entries.add(ModItems.FIRE_FLOWER);
-                        entries.add(ModBlocks.FIRE_FLOWER_BLOCK);
+                        //entries.add(ModBlocks.FIRE_FLOWER_BLOCK);
                     })
                     .build());
 
