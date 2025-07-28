@@ -16,6 +16,14 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks
 {
+    //Blocks ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    public static final Block CONTAINER = registerBlock("container", new Block(
+            AbstractBlock.Settings.create()
+                    .strength(5f)
+                    .sounds(BlockSoundGroup.ANVIL)
+                    .pistonBehavior(PistonBehavior.NORMAL)
+                    .mapColor(MapColor.WHITE)
+                    .hardness(.25f)));
 
     //Flowers -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
