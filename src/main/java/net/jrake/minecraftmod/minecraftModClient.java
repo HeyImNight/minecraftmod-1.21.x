@@ -16,9 +16,5 @@ public class minecraftModClient implements ClientModInitializer
         BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(),
                 ModBlocks.FIRE_FLOWER_BLOCK,
                 ModBlocks.WATER_FLOWER_BLOCK);
-
-        //BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.FIRE_FLOWER_BLOCK, RenderLayer.getCutout());
-        //BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.WATER_FLOWER_BLOCK, RenderLayer.getCutout());
-
     }
 }
