@@ -4,6 +4,7 @@ import com.jcraft.jorbis.Block;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.jrake.minecraftmod.block.ModBlocks;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.client.render.RenderLayer;
 
 public class minecraftModClient implements ClientModInitializer
