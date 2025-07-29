@@ -23,8 +23,9 @@ public class ModBlocks
                     .sounds(BlockSoundGroup.ANVIL)
                     .pistonBehavior(PistonBehavior.NORMAL)
                     .mapColor(MapColor.WHITE)
-                    .hardness(.25f)
-                    .nonOpaque()));
+                    .hardness(1.5f)
+                    .nonOpaque()
+                    .requiresTool()));
 
     //Flowers -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 

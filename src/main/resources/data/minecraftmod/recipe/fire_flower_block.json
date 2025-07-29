@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "minecraftmod:fire_flower_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraftmod:fire_flower_block"
+  }
+}
